@@ -1,6 +1,15 @@
 * {
     font-family: 'Inter';
     box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
 }
 
 .topbar {
@@ -17,7 +26,8 @@
     margin-left: 80px;
 
 }
-.topBar-btngroup{
+
+.topBar-btngroup {
     display: flex;
     align-items: center;
     margin: 0 74px;
@@ -36,17 +46,19 @@
     font-size: 16px;
     font-family: Inter;
     font-weight: 600;
-    background:#fff;
+    background: #fff;
     letter-spacing: 0.8px;
     margin: 0 16px;
-    cursor:pointer;
+    cursor: pointer;
     transition: 0.3s ease;
-}
-.signIn-btn:hover{
-    background-color: #1da77230;
+} 
+
+.signIn-btn:hover {
+    background-color: #41dba030;
 }
 
-.heart-btn ,.cart-btn {
+.heart-btn,
+.cart-btn {
     width: 45px;
     border: none;
     background-color: transparent;
@@ -54,15 +66,18 @@
     margin: 0 16px;
 }
 
-.cart-btn svg , .heart-btn svg  {
+.cart-btn svg,
+.heart-btn svg {
     width: 32px;
     border: none;
     background-color: transparent;
     color: #000;
     margin: 0 20px;
-    cursor:pointer;
-    transition:0.3s ease;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
-.heart-btn svg:hover, .cart-btn svg:hover{
+
+.heart-btn svg:hover,
+.cart-btn svg:hover {
     transform: scale(1.1)
 }
