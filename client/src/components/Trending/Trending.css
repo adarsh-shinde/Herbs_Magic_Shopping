@@ -4,6 +4,7 @@
 .trending-header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .trending-now-text {
     color: #000;
