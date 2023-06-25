@@ -1,0 +1,68 @@
+* {
+    font-family: 'Inter';
+    box-sizing: border-box;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    width: 109px;
+    height: 50px;
+    margin-left: 80px;
+
+}
+.topBar-btngroup{
+    display: flex;
+    align-items: center;
+    margin: 0 74px;
+}
+
+.signIn-btn {
+    display: inline-flex;
+    height: 40px;
+    padding: 11px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid var(--primary-main, #1DA772);
+    color: #1DA772;
+    color: var(--primary-main, #1DA772);
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    background:#fff;
+    letter-spacing: 0.8px;
+    margin: 0 16px;
+    cursor:pointer;
+    transition: 0.3s ease;
+}
+.signIn-btn:hover{
+    background-color: #1da77230;
+}
+
+.heart-btn ,.cart-btn {
+    width: 45px;
+    border: none;
+    background-color: transparent;
+    color: #000;
+    margin: 0 16px;
+}
+
+.cart-btn svg , .heart-btn svg  {
+    width: 32px;
+    border: none;
+    background-color: transparent;
+    color: #000;
+    margin: 0 20px;
+    cursor:pointer;
+    transition:0.3s ease;
+}
+.heart-btn svg:hover, .cart-btn svg:hover{
+    transform: scale(1.1)
+}
