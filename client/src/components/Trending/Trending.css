@@ -1,0 +1,25 @@
+.trending {
+    margin: 40px 75px;
+}
+.trending-header{
+    display: flex;
+    justify-content: space-between;
+}
+.trending-now-text {
+    color: #000;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 500;
+    letter-spacing: 1.6px;
+}
+
+.view-all-text {
+    color: var(--neutrals-black, #000);
+    font-size: 20px;
+    font-family: Inter;
+    letter-spacing: 1px;
+}
+.view-all-text a{
+    text-decoration: none;
+    color: #000;
+}
